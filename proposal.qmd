@@ -47,7 +47,7 @@ Types of variables: categorical (names, location) and quantitative (year, geo-lo
 #| label: load-data-1
 
 
-vox = read.csv(file = "~/summer-project-TeamKelsey/data/pv_correspondence_cleaned_index.csv") 
+vox = read.csv(file = "data/pv_correspondence_cleaned_index.csv") 
 glimpse(vox)
 ```
 
