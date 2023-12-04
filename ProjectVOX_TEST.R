@@ -13,6 +13,9 @@ library(visNetwork)
 correspondence <- read_csv('C:/Users/Samuel David/Desktop/pv_Allcorrespondence_cleaned_index.csv', show_col_types = FALSE)
 show (correspondence)
 
+#samuel can you upload the csv file
+
+
 # Crete barplot 
 barplot(correspondence$connection_type, xlab = "location")
 par(mar = c(5, 4, 4, 2) + 0.1)
